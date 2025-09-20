@@ -4,17 +4,17 @@
 <h2>🚀 How to Run</h2>
 
 <b>1️⃣ Compile the Project</b>
-<pre><code>make</code></pre>
+<pre><code>gcc *.c </code></pre>
 
 <b>2️⃣ Encoding a Message</b>
-<pre><code>./steg encode &lt;source.bmp&gt; &lt;secret.txt&gt; &lt;output.bmp&gt;</code></pre>
+<pre><code>./a.out -e &lt;source.bmp&gt; &lt;secret.txt&gt; &lt;output.bmp&gt;</code></pre>
 Example:
-<pre><code>./steg encode input.bmp secret.txt encoded.bmp</code></pre>
+<pre><code>./a.out -e input.bmp secret.txt encoded.bmp</code></pre>
 
 <b>3️⃣ Decoding a Message</b>
-<pre><code>./steg decode &lt;encoded.bmp&gt; &lt;output.txt&gt;</code></pre>
+<pre><code>./a.out -d &lt;encoded.bmp&gt; &lt;output.txt&gt;</code></pre>
 Example:
-<pre><code>./steg decode encoded.bmp decoded.txt</code></pre>
+<pre><code>./a.out -d encoded.bmp decoded.txt</code></pre>
 
 <h2>📝 Example Output</h2>
 
